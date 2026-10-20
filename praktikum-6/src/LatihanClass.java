@@ -7,7 +7,9 @@ public class LatihanClass {
         m2.nama = "Siti";
         m2.nim = "67890";
         m2.ipk = 3.90;
+        m2.tampilkanData();
 
+        System.out.println("Cumlaude? " + m2.isCumlaude());
         System.out.println(m1.nama + " - " + m1.ipk);
         System.out.println(m2.nama + " - " + m2.ipk);
     }
