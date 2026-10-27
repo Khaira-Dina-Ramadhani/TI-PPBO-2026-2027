@@ -22,7 +22,7 @@ public class Buku {
             this.pengarang = pengarang;
         }
         public int getTahunTerbit() {
-            return tahunTerbit;
+             return tahunTerbit;
         }
         public void tampilkanData() {
             System.out.println("Judul: " + judul);
