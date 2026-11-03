@@ -4,8 +4,7 @@ public class Latihan2 {
         Mobil mobil = new Mobil("Toyota", 180, 4);
 
         System.out.println("=== Data Mobil ===");
-        System.out.println("Merek: " + mobil.merek);
-        System.out.println("Kecepatan Maksimal: " + mobil.kecepatanMaks + " km/jam");
+        mobil.tampilkanInfo();
         System.out.println("Jumlah Pintu: " + mobil.jumlahPintu);
 
         Motor motor = new Motor("Honda", 120, "Matic");
