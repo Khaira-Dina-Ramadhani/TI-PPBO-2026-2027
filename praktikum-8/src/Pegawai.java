@@ -1,5 +1,5 @@
 public class Pegawai {
-    protected String nama;
+    private String nama;
     protected String nip;
     protected Double gajiPokok;
 
