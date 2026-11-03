@@ -4,9 +4,11 @@ public class Pegawai {
     protected Double gajiPokok;
 
     public Pegawai(String nama, String nip, double gajiPokok) {
+        System.out.println("1. Constructor pegawai dijalankan");
         this.nama = nama;
         this.nip = nip;
         this.gajiPokok = gajiPokok;
+
     }
     public void tampilkanData() {
         System.out.println("Nama: " + nama);
