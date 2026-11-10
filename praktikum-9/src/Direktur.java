@@ -1,7 +1,7 @@
 public class Direktur extends Manager{
     private double tunjanganSaham;
 
-    public direktur(String nama, String nip, double gajiPokok, double tunjanganJabatan, doubleSaham){
+    public Direktur(String nama, String nip, double gajiPokok, double tunjanganJabatan, double tunjanganSaham){
         super(nama, nip, gajiPokok, tunjanganJabatan);
         this.tunjanganSaham = tunjanganSaham;
     }
