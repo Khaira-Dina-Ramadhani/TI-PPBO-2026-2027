@@ -12,5 +12,6 @@ public class Persegi extends BangunDatar{
     @Override
     public double hitungKeliling() {
         return 4 * sisi;
+
     }
 }

@@ -14,5 +14,6 @@ public class PersegiPanjang extends BangunDatar{
     @Override
     public double hitungKeliling() {
         return 2 * (panjang + lebar);
+
     }
 }
