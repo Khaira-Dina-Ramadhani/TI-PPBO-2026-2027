@@ -4,13 +4,16 @@ public class RentalDemo {
                 new Mobil("avanza"),
                 new Motor("trail KLX"),
                 new Mobil("Xenia"),
+                new Sepeda("Polygon"),
+                new Jeep("Jeep Wrangler")
         };
-        int hari = 3;
+        int hari = 5;
         double total = 0;
-
         for (Kendaraan k : daftar) {
             double biaya = k.hitungBiayaSewa(hari);
+
             System.out.println(k.merek + ": " + biaya);
+
             total += biaya;
             if (k instanceof BisaOffroad) {
                 ((BisaOffroad) k).jelajahOffroad();
